@@ -1,0 +1,72 @@
+html, body{
+    margin: 0;
+    height: 100vh;
+    background: rgb(4, 197, 130);
+}
+
+.navbar {
+    background: rgba(46, 49, 56, 0.8);
+    border-bottom: solid 10px rgba(0, 0, 0, 0.3);
+    height: 12vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mainlogo{
+    color: rgba(190, 200, 150, 0.8);
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+}
+  
+.Quizdesign{
+    background-color: rgba(190, 200, 150, 0.8);
+    color: rgb(46, 49, 56);
+    border-radius: 20px;
+    transition: all 1s;
+    cursor: pointer;
+}
+  
+.Quizdesign:hover{
+    background-color:  rgb(46, 49, 56);
+    color:  rgba(190, 200, 150, 0.8);
+}
+
+.layoutalignment{
+    background: rgb(4, 197, 130);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .layoutalignment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    background-color: tomato;
+    height: 60vh;
+    width: 80vh;
+}
+
+.layoutcontent{
+    border: solid 1px yellow;
+    width: 40%;
+}
+
+.imgdesign{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

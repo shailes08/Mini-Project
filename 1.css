@@ -1,0 +1,238 @@
+html, body{
+    margin: 0px;
+}
+
+.main{
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100vw;
+}
+
+.fstLine {
+    background: darkolivegreen;
+    color: whitesmoke;
+    height: 10vh;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar {
+    background: rgba(46, 49, 56, 0.8);
+    border-bottom: solid 10px rgba(0, 0, 0, 0.3);
+    height: 12vh;
+}
+
+.mainlogo{
+        color: rgba(190, 200, 150, 0.8);
+        font-size: 30px;
+        font-family: monospace;
+        font-weight: bold;
+    }
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: 	rgb(143,188,143);
+}
+
+.subnav1{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.beautifypro{
+    font-size: 16px;
+    font-family: cursive;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.beautifypro:hover{
+    color: olive;
+}
+
+.beautifyrep{
+    font-size: 16px;
+    font-family: cursive;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.beautifyrep:hover{
+    color: olive;
+}
+
+.beautifycre{
+    font-size: 16px;
+    font-family: cursive;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.beautifycre:hover{
+    color: olive;
+}
+
+.subnav2{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.searchbarstyle{
+    height: 36px;
+    width: 300px;
+    border-radius: 30px;
+    background: rgba(190, 200, 150, 0.8);
+    color: black;
+    border: none;
+    transition: all 1s;
+}
+
+.searchbarstyle:hover{
+    background: olive;
+    color: whitesmoke;
+}
+.navsub{
+    background-color: rgba(190, 200, 150, 0.8);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.logodesign{
+    background-color: rgb(46, 49, 56);
+    color: rgba(190, 200, 150, 0.8);
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.Quizdesign{
+    background-color: rgba(190, 200, 150, 0.8);
+    color: rgb(46, 49, 56);
+    border-radius: 20px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+ .Quizdesign:hover{
+    background-color:  rgb(46, 49, 56);
+    color:  rgba(190, 200, 150, 0.8);
+} 
+
+.subalign{
+    height: 30px;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgba(190, 200, 150, 0.8);
+
+    cursor: pointer;
+
+    width: 70vh;
+    background-color: rgb(46, 49, 56);
+
+    transition: all 1s;
+}
+
+.subalign:hover{
+    background-color:rgb(143,188,143);
+    color:  rgb(46, 49, 56);
+}
+
+.subtext{
+    color: rgba(190, 200, 150, 0.8);
+}
+
+.subtext:hover{
+    color:  rgb(46, 49, 56);
+}
+
+.exitnavbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+
+.settingdesign{
+    margin-right: 40px;
+    font-size: 20px;
+    font-family: monospace;
+    font-style: inherit;
+    cursor: pointer;
+    background-color: rgb(143,188,143);
+    padding: 8px;
+    border-radius: 4px;
+    transition: all 1s;
+    color: black;
+}
+
+.settingdesign:hover{
+   background-color: darkolivegreen;
+   color: whitesmoke;
+}
+
+.logoutdesign{
+    margin-right: 40px;
+    font-size: 20px;
+    font-family: monospace;
+    font-style: inherit;
+    cursor: pointer;
+    background-color: rgb(143,188,143);
+    padding: 8px;
+    border-radius: 4px;
+    transition: all 1s;
+    color: black;
+}
+
+.logoutdesign:hover{
+    background-color: darkolivegreen;
+ }
+
+.logoutcolor{
+     color: black;
+}
+
+.logoutcolor:hover{
+    color: whitesmoke;
+}
+
+.lastnav{
+    background: darkolivegreen;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh;
+}
+
+.lastnavtextstyle{
+    font-size: 20px;
+    font-family: monospace;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.lastnavtextstyle:hover{
+    color: blanchedalmond;
+}
+
+a{
+    font-style: none;
+    text-decoration: none;
+}

@@ -1,0 +1,113 @@
+html, body{
+    margin: 0;
+    height: 100vh;
+    background: rgb(4, 197, 130);
+}
+
+.navbar {
+    background: rgba(46, 49, 56, 0.8);
+    border-bottom: solid 10px rgba(0, 0, 0, 0.3);
+    height: 12vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mainlogo{
+    color: rgba(190, 200, 150, 0.8);
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+}
+  
+.Quizdesign{
+    background-color: rgba(190, 200, 150, 0.8);
+    color: rgb(46, 49, 56);
+    border-radius: 20px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.Quizdesign:hover{
+    background-color:  rgb(46, 49, 56);
+    color:  rgba(190, 200, 150, 0.8);
+}
+
+
+.profile{
+    
+    margin-top: 50px;
+    display: flex;
+    background: rgba(46, 49, 56, 0.8);
+    height: 12vh;
+    color: rgba(190, 200, 150, 0.8);
+    justify-content: left;
+    align-items: center;
+}
+
+.name{
+
+    padding-left: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: monospace;
+    
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    background: rgba(190, 200, 150, 0.8);
+    height: 50vh;
+    justify-content: center;
+    
+    
+
+}
+
+.details{
+
+    padding-left: 50px;
+    display: flex;
+    
+    
+    width: auto;
+    height: 40vh;
+    justify-content: left;
+    align-items: center;
+    font-family: monospace;
+
+
+}
+
+.details div{
+    
+    padding: 10px;
+}
+
+#lable{
+    font-size:x-large;
+    transition: 0.5s;
+
+}
+
+#lable:hover{
+    color: white;
+}
+
+.home{
+    margin-top: 50px;
+    width: 10vw;
+    margin-left: 40vw;
+    font-size: 1.2rem;
+    height: 4vh;
+    background: rgba(46, 49, 56, 0.8);
+    color: rgba(190, 200, 150, 0.8);
+    font-family: monospace;
+    transition: 0.5s;
+}
+
+.home:hover{
+    background-color: rgba(190, 200, 150, 0.8);
+    color: black;
+}

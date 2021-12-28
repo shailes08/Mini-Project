@@ -1,0 +1,43 @@
+html, body{
+    margin: 0;
+    height: 100vh;
+    background: rgb(4, 197, 130);
+}
+
+.navbar {
+    background: rgba(46, 49, 56, 0.8);
+    border-bottom: solid 10px rgba(0, 0, 0, 0.3);
+    height: 12vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mainlogo{
+    color: rgba(190, 200, 150, 0.8);
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+}
+  
+.Quizdesign{
+    background-color: rgba(190, 200, 150, 0.8);
+    color: rgb(46, 49, 56);
+    border-radius: 20px;
+    transition: all 1s;
+    cursor: pointer;
+}
+  
+.Quizdesign:hover{
+    background-color:  rgb(46, 49, 56);
+    color:  rgba(190, 200, 150, 0.8);
+}
+
+.content{
+    background-color: rgb(4, 197, 130);
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+}

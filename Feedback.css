@@ -1,0 +1,69 @@
+html, body{
+    margin: 0;
+    height: 100vh;
+    background: rgb(4, 197, 130);
+}
+
+.navbar {
+    background: rgba(46, 49, 56, 0.8);
+    border-bottom: solid 10px rgba(0, 0, 0, 0.3);
+    height: 12vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mainlogo{
+    color: rgba(190, 200, 150, 0.8);
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+}
+  
+.Quizdesign{
+    background-color: rgba(190, 200, 150, 0.8);
+    color: rgb(46, 49, 56);
+    border-radius: 20px;
+    transition: all 1s;
+    cursor: pointer;
+}
+  
+.Quizdesign:hover{
+    background-color:  rgb(46, 49, 56);
+    color:  rgba(190, 200, 150, 0.8);
+}
+
+.dialogueBoxBorder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+.dialogueBox{
+    background-color: rgb(46, 49, 56);
+    width: 400px;
+    height: 300px;
+    color:  rgb(4, 197, 130);
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 10px 
+    ;
+}
+
+.inputBox{
+    background-color:  rgb(4, 197, 130);
+    height: 30vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    border-radius: 10px;
+    border-color: olivedrab;
+    border-width: 4px;
+    color: rgb(46, 49, 56);
+    font-family: cursive;
+    font-size: 15px;
+}
